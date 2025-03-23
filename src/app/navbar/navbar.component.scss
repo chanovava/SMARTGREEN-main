@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #353535; 
+  padding: 10px 20px;
+}
+
+ Logo Styling 
+.logo img {
+  height: 50px;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 110px;
+  font-family: "Big Shoulders", sans-serif;
+  font-size: xx-large;
+
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+ // transition: 0.3s;
+}
+
+/* Active Link */
+.nav-links .active {
+  font-weight: bold;
+}
+
+/* Login Button */
+.login-btn {
+  background: #e74c3c; /* Red button */
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background: #c0392b;
+}
