@@ -1,59 +1,66 @@
-# MyAngularApp
+# 🌿 SmartGreen
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+**SmartGreen** is a modern, responsive web platform designed for the future of agriculture. As a startup project in development, SmartGreen aims to revolutionize the farming industry by combining IoT technology with sustainable practices — empowering farmers with smarter tools for a greener tomorrow.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚧 Project Status
 
-```bash
-ng serve
-```
+🔧 **Currently in development**  
+🛠️ Building core pages and styling  
+📊 Planning integration with IoT sensor data and backend systems
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🌟 Vision
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+To create a smart farming platform that:
+- Utilizes real-time sensor data for precision agriculture
+- Supports environmental sustainability
+- Helps farmers make better, faster, data-driven decisions
+- Reduces waste, improves yield, and fosters a connected agri-community
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## ✨ Features (Planned + In Progress)
 
-```bash
-ng generate --help
-```
+✅ Themed, responsive frontend (dark UI)  
+✅ Core pages: Home, About, Contact, Meet the Team, Login/Signup  
+✅ Consistent SCSS styling  
+🔄 IoT integration (Coming Soon)  
+📈 Dashboard for live farm data (Future Phase)  
+🤝 Community & support platform (Planned)  
 
-## Building
+---
+## 📬 Contact
 
-To build the project run:
+Got feedback or want to collaborate?
 
-```bash
-ng build
-```
+📧 Email: ameurameur.sofia@gmail.com
+Linkdin: https://www.linkedin.com/in/ameur-sofia/
+## 📝 Credits
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Icons by [Flaticon](https://flaticon.com)  
+- Fonts by [Google Fonts](https://fonts.google.com)  
+- Sample images by [Pexels](https://pexels.com) & [Unsplash](https://unsplash.com)
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📅 Roadmap Highlights
 
-```bash
-ng test
-```
+- [x] Complete frontend styling
+- [ ] Integrate basic backend (Auth, DB)
+- [ ] Build IoT device simulation or API
+- [ ] Create user dashboards
+- [ ] Launch MVP site
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 📄 License
 
-```bash
-ng e2e
-```
+This project is currently private and under development. For collaboration or licensing inquiries, please contact us.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## © 2024 SmartGreen — Greener Farming, Smarter Future 🌱
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
