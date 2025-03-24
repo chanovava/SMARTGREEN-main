@@ -1,5 +1,45 @@
+$primary-color: #D3CE31; // Bottom color
+$secondary-color: #353535; // Top dark gray
+$accent-color: #ff3b30;
+$text-color: #fff;
 .body{
     height: 100vh;
     margin: 0;
     background: linear-gradient(to bottom, #D3CE31 #353535);
 }
+footer {
+    background-color: $secondary-color; // #353535
+    color: $text-color; // #fff
+    text-align: center;
+    padding: 30px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  
+    p {
+      margin: 0 0 15px 0;
+      font-weight: 400;
+    }
+  
+    a {
+      display: inline-block;
+      color: lighten($text-color, 20%);
+      text-decoration: none;
+      margin: 0 10px 10px 10px;
+      font-size: 0.85rem;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: $accent-color; // #ff3b30
+        text-decoration: underline;
+      }
+    }
+  
+    @media (max-width: 600px) {
+      a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  }
+  

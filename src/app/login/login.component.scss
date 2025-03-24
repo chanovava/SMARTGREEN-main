@@ -1,0 +1,103 @@
+$primary-color: #D3CE31;
+$secondary-color: #353535;
+$accent-color: #ff3b30;
+$text-color: #fff;
+$secondary-text-color: #ccc;
+.auth {
+    background-color: $secondary-color;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: $text-color;
+    padding: 40px 20px;
+  
+    .auth-container {
+      background: #2c2c2c;
+      padding: 40px 30px;
+      border-radius: 12px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  
+      .auth-toggle {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+  
+        button {
+          background: transparent;
+          border: none;
+          color: $text-color;
+          font-family: 'Big Shoulders', sans-serif;
+          font-size: 1.2rem;
+          padding-bottom: 8px;
+          border-bottom: 2px solid transparent;
+          cursor: pointer;
+          transition: 0.3s;
+  
+          &.active {
+            border-color: $primary-color;
+            color: $primary-color;
+          }
+        }
+      }
+  
+      .auth-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+  
+        h2 {
+          font-family: 'Big Shoulders', sans-serif;
+          text-align: center;
+          margin-bottom: 10px;
+          font-size: 1.8rem;
+          color: $primary-color;
+        }
+  
+        input {
+          padding: 12px 14px;
+          border: none;
+          border-radius: 6px;
+          font-size: 1rem;
+        }
+  
+        button {
+          background-color: $accent-color;
+          color: white;
+          padding: 12px;
+          border: none;
+          border-radius: 6px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: 0.3s;
+  
+          &:hover {
+            background-color: darken($accent-color, 8%);
+          }
+        }
+  
+        .switch-link {
+          text-align: center;
+          font-size: 0.95rem;
+  
+          span {
+            color: $primary-color;
+            cursor: pointer;
+            font-weight: 500;
+  
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+  
+      .hidden {
+        display: none;
+      }
+    }
+  }
+  

@@ -1,3 +1,83 @@
-.body{
-    background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+$primary-color: #1f1f1f;
+$secondary-color: #2c2c2c;
+$accent-color: #c6d900;
+$text-color: #fff;
+$text-secondary: #ccc;
+
+.meet-smartgreen {
+  background-color: #1f1f1f;
+  padding: 100px 20px;
+  color: #fff;
+  font-family: 'Big Shoulders Display', sans-serif;
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .section-title {
+    color: #c6d900;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .intro {
+    color: #ccc;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+  }
+
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+
+    .team-member {
+      background: #2c2c2c;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 240px;
+      text-align: center;
+
+      img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        height: auto;
+        object-fit: cover;
+      }
+
+      h3 {
+        color: #c6d900;
+        font-size: 1.3rem;
+        margin-bottom: 5px;
+      }
+
+      p {
+        color: #aaa;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .vision {
+    h3 {
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #ccc;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
 }

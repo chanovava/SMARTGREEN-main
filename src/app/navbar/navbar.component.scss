@@ -6,6 +6,7 @@
   justify-content: space-between;
   background: #353535; 
   padding: 10px 20px;
+ 
 }
 
  Logo Styling 
@@ -39,17 +40,24 @@
   font-weight: bold;
 }
 
-/* Login Button */
 .login-btn {
-  background: #e74c3c; /* Red button */
+  background: transparent;
+  border: 2px solid white;
   color: white;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 5px;
+  padding: 8px 12px;
+  border-radius: 50px;
   cursor: pointer;
-  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s ease;
+}
+
+.login-btn i {
+  font-size: 18px;
 }
 
 .login-btn:hover {
-  background: #c0392b;
+  background: rgba(255, 255, 255, 0.1);
 }
