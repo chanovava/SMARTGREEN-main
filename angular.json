@@ -9,6 +9,8 @@
         "@schematics/angular:component": {
           "style": "scss"
         }
+    
+
       },
       "root": "",
       "sourceRoot": "src",
@@ -17,7 +19,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/my-angular-app",
+            "outputPath": "dist/SMARTGREEN-main",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -44,8 +46,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4kB",
-                  "maximumError": "8kB"
+                  "maximumWarning": "18kB",
+                  "maximumError": "50kB"
                 }
               ],
               "outputHashing": "all"
