@@ -1,4 +1,5 @@
 # 🌿 SmartGreen
+link : https://chanovava.github.io/SMARTGREEN-main/home
 
 **SmartGreen** is a modern, responsive web platform designed for the future of agriculture. As a startup project in development, SmartGreen aims to revolutionize the farming industry by combining IoT technology with sustainable practices — empowering farmers with smarter tools for a greener tomorrow.
 
@@ -61,6 +62,6 @@ Linkdin: https://www.linkedin.com/in/ameur-sofia/
 This project is currently private and under development. For collaboration or licensing inquiries, please contact us.
 
 ---
-
+https://chanovava.github.io/SMARTGREEN-main/home
 ## © 2024 SmartGreen — Greener Farming, Smarter Future 🌱
 
