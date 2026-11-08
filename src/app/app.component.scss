@@ -1,11 +1,11 @@
-$primary-color: #D3CE31; // Bottom color
+$primary-color: #567500; // Bottom color
 $secondary-color: #353535; // Top dark gray
-$accent-color: #ff3b30;
+$accent-color: #b41b13;
 $text-color: #fff;
 .body{
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom, #D3CE31 #353535);
+    background: linear-gradient(to bottom, #567500 #353535);
 }
 footer {
     background-color: $secondary-color; // #353535
